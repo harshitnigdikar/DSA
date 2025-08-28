@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /*
-* Used for finding the shortest path from src to desti
+* Used for finding the shortest path from src to destination
 * Why not Dijkstra? -> because this fails in -ve edges
 * If the graph has -ve cycles the dijkstra fails
 * Bellmen ford helps to detects -ve cycles also
