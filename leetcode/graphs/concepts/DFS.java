@@ -1,4 +1,4 @@
-package dsa.leetcode.graphs;
+package dsa.leetcode.graphs.concepts;
 
 import java.util.*;
 
