@@ -26,7 +26,7 @@ class Edge {
     }
 }
 
-class PrimsPair implements Comparator {
+class PrimsPair implements Comparable<PrimsPair> {
     int vertex;
     int aquiringVertex;
     int weight;
@@ -37,8 +37,9 @@ class PrimsPair implements Comparator {
         this.weight = weight;
     }
 
-    public int compare(PrimsPair o1, PrimsPair o2) {
-        return o1.weight-o2.weight;
+    @Override
+    public int compareTo(PrimsPair o) {
+        return this.weight - o.weight;
     }
 }
 public class PrimsAlgo {
