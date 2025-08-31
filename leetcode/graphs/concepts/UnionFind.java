@@ -30,7 +30,7 @@ public class UnionFind {
         if(v == parent[v]){
             return v;
         }
-        return parent[v]=findSet(parent, parent[v]);
+        return parent[v]=findSetOptimise1(parent, parent[v]);
     }
 
     public void unionSets(int a, int b, int[] parent){
