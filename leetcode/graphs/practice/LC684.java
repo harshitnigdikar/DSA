@@ -10,7 +10,6 @@ public class LC684 {
         if(x == parentArr[x]){
             return x;
         }
-
         return parentArr[x] = find(parentArr[x], parentArr);
     }
 
