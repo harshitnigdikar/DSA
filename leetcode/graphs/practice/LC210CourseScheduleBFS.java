@@ -64,7 +64,6 @@ public class LC210CourseScheduleBFS {
                 {1, 2},
                 {0, 1}
         };
-        //[[0,1],[1,0]]
         int numCourses = 3;
         System.out.println(Arrays.toString(findOrder(numCourses, prerequisites)));
     }
