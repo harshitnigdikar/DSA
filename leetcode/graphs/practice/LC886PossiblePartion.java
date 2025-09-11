@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class LC886PossiblePartion {
-    private boolean check(int start, int V, ArrayList<ArrayList<Integer>>adj, int color[]){
+    private boolean check(int start, int V, ArrayList<ArrayList<Integer>>adj, int[] color){
         Queue<Integer> q = new LinkedList<>();
         q.add(start);
         color[start] = 0;
