@@ -1,6 +1,6 @@
 package dsa.leetcode.blind75;
 
- class ListNode {
+class ListNode {
       int val;
       ListNode next;
       ListNode(int x) {
