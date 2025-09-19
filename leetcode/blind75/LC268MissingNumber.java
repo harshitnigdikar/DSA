@@ -1,4 +1,4 @@
-package dsa.leetcode;
+package dsa.leetcode.blind75;
 
 public class LC268MissingNumber {
     public static int missingNumber(int[] nums) {
