@@ -11,7 +11,7 @@ import java.util.List;
 * How to find MST :-
 * Sort all edges as per weights
 * Then start connecting edges.
-* If and if there is a cycle formed while adding any edges, dont add that edge
+* If and if there is a cycle formed while adding any edges, don't add that edge
 *
 * Use union find to detect edges
 * Time complexity = O(E log V)
